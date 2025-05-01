@@ -1,0 +1,17 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+video {
+  width: 400px;
+  border: 2px solid black;
+}
+#chatBox {
+  margin-top: 20px;
+}
+.botMsg {
+  background: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}

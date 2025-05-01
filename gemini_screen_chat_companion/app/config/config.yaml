@@ -1,0 +1,6 @@
+# Application Configuration
+
+# Screen capture settings
+screenCapture:
+  # Interval between screenshots in milliseconds (100000 = 100 seconds)
+  #captureInterval: 100000
