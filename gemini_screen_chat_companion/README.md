@@ -14,29 +14,31 @@ A lightweight prototype for building AI-powered screen analysis and chat interfa
 - 🌍 **CORS-Enabled API** ready for web clients
 - 🔐 **Secure API Key Loading** via `.env`
 
-## technical Notes:
+## Technical Notes:
 -🧪 When your Gemini API quota is exceeded or you're developing offline, you can simulate a Gemini response using a lightweight mock class:TestingResponse to test flow with llm output
 
-
+📌 Ideas or Future Enhancements
+For teachers: use screen sharing to automatically capture screenshots of students during exams. These screenshots can then be analyzed by a model (based on RAG) to detect issues 
 
 
 ## 🏗️ Project Structure
+
 
 gemini_screen_chat_companion/
 │
 ├── app/
 │   ├── config/
-│   │   └── config.yaml             # (Optional) settings like capture interval
+│   │   └── config.yaml            
 │   ├── static/
-│   │   ├── main.js                 # JS handling screen share + chat
-│   │   └── style.css               # css styles
+│   │   ├── main.js                 
+│   │   └── style.css              
 │   ├── templates/
-│   │   └── index.html              # HTML page rendered by Flask
-│   └── server.py                   # ✅ Flask server & Gemini backend
+│   │   └── index.html              
+│   └── server.py                  
 │
-├── .env                            # 🔐 Gemini API key
-├── requirements.txt                # Python dependencies
-└── README.md                       # Project usage instructions
+├── .env                            
+├── requirements.txt               
+└── README.md           
 
 
 ## How it works
