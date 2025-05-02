@@ -51,8 +51,7 @@ gemini_screen_chat_companion/
 # how to start it
 
 1. Clone the repository
-git clone https://github.com/yourusername/gemini-screen-chat-companion.git
-cd gemini-screen-chat-companion
+
 
 # 2. Create and activate a virtual environment
 python -m venv venv
